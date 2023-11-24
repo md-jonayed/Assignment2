@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerClass {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.sortButton {
+  background-color: rgb(211, 208, 208);
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+}
+
+.blogButton {
+  background-color: rgb(239, 43, 43);
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+.secondHeaderClass {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.buttons {
+  background-color: rgb(239, 43, 43);
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.videoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.videoCard {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
